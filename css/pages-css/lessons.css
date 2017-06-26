@@ -1,0 +1,27 @@
+section#pricePlans.section-info {
+	margin-top: 0px;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+section#pricePlans.section-info h3 {
+	font-size: 1.3em;
+}
+
+section#priceInfo.section-info {
+	margin-top: 0px;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+section#priceInfo.section-info h3 {
+	font-size: 1.3em;
+}
+
+#priceInfo #plans .plan {
+	background-color: #fff;
+	border: 1px solid gray;
+	width: 100%;
+	text-align: center;
+}
+

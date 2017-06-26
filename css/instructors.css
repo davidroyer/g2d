@@ -1,0 +1,54 @@
+@media screen and (max-width: 610px) {
+section aside {
+float: left;
+display: block;
+margin-right: 10.1484%;
+width: 100%;
+clear: both
+}
+}
+
+section aside {
+	clear: both;
+}
+
+.headshot img {
+	border-radius: 200px;
+	background-color: #ECF0F1;
+	max-width: 400px;
+	border: 3px solid #8EDDC5;
+}
+
+h2 {
+	color: #40404C;
+}
+
+.info p {
+	color: #535356;
+	font-size: 18px;
+	word-spacing: .6px;
+	letter-spacing: .5px;
+	line-height: 1.7;
+}
+
+@media screen and (max-width: 610px) {
+	section article {
+		width: 100%;
+	}
+	section aside {
+		text-align: center;
+	}
+	.info {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (min-width: 611px) {
+	section article {
+		float: left;
+	}
+}
+
+h2 {
+	text-align: left;
+}

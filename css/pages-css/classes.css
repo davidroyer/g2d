@@ -1,0 +1,17 @@
+.flex-box:nth-child(1):hover {
+	background: #f7f7f7;
+}
+
+.flex-box:nth-child(2):hover {
+	background-color: #f7f7f7;
+}
+
+hr.small-hr {
+	width: 50%;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.flex-box {
+	flex: 2 2 21em;
+}

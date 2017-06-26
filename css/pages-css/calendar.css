@@ -1,0 +1,46 @@
+@media screen and (min-width: 700px) {
+	div#mobile-calendar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 699px) {
+	div#calendar {
+		display: none;
+	}
+}
+
+
+p.subtitle {
+text-align: center;
+margin-top: 0px;
+padding-top: 0px;
+margin-bottom: 60px;
+font-size: 1.6em;
+font-family: Vollkorn;
+letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px) {
+	p.subtitle {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	p.subtitle {
+		font-size: 1.2em;
+	}
+}
+
+h1.heading-title {
+	margin-bottom: 0px;
+}
+
+div#mobile-calendar div.description {
+	white-space: pre-wrap;
+}
+
+div.description::first-line {
+  font-weight: 700;
+}

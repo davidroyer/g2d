@@ -1,0 +1,18 @@
+.hero {
+  background: url("../img/Wedding.jpg"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background: url("../img/Wedding.jpg"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 4em;
+  margin-top: 50px; 
+  height: 300px;
+  }
+
+  
+  @media screen and (max-width: 599px) { 
+    .hero {
+        height: 200px;
+    }
+  }

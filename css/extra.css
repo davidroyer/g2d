@@ -1,0 +1,41 @@
+header.navigation ul li.nav-link a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media screen and (max-width: 650px) {
+section aside {
+float: left;
+display: block;
+margin-right: 10.1484%;
+width: 100%;
+clear: both
+}
+}
+
+section aside {
+	clear: both;
+}
+
+.headshot img {
+	border-radius: 200px;
+	background-color: #939CB2;
+	max-width: 400px;
+}
+
+h2 {
+	color: #40404C;
+}
+
+.info p {
+	color: #535356;
+	font-size: 18px;
+	word-spacing: .6px;
+	letter-spacing: .5px;
+	line-height: 1.7;
+}
+
+header.navigation ul li.nav-link {
+	padding-left: .2em;
+	padding-right: .2em;
+}

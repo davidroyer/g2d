@@ -1,0 +1,22 @@
+
+.flex-box ul li {
+    background-image: url(img/bullet.png);
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+    padding-left: 40px;
+    margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+	letter-spacing: .5px;
+	word-spacing: 1px;
+}
+
+.flex-box ul {
+margin-left: -25px
+}
+
+hr.small-hr {
+	width: 50%;
+	display: inline-block;
+	margin-left: 50px;
+}

@@ -1,0 +1,57 @@
+.flex-box:nth-child(1):hover {
+background-color: rgba(190, 219, 213, 0.5);
+}
+
+.flex-box:nth-child(2):hover {
+background-color: rgba(190, 219, 213, 0.5);
+}
+
+.flex-box:nth-child(3):hover {
+background-color: rgba(190, 219, 213, 0.5);
+}
+
+.flex-box:nth-child {
+border-top: 6px solid #92B1E3;
+}
+
+#map_canvas {
+width: 85%;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.flex-box {
+
+border: 1px solid #D5D5D5;
+border-top: 6px solid #92B1E3;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.flex-box p {
+	font-family: Vollkorn, Arial, sans-serif;
+	font-size: 1.3em;
+}
+
+.flex-box .flex-title {
+color: #40404C;
+font-size: 1.6em;
+margin-bottom: 1.8em;
+letter-spacing: .4px;
+}
+}
+
+section#lessons-classes {
+	padding-top: 0px;
+	font-family: Vollkorn, Arial, sans-serif;
+}
+
+section#lessons-classes {
+	padding: 0px;
+	font-family: Vollkorn, Arial, sans-serif;
+}
+
+section {
+	padding-top: 1em;
+}

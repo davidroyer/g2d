@@ -1,0 +1,240 @@
+header.navigation .logo img {
+	width: 110px;
+	height: auto;
+	padding: .4em 0;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: Vollkorn, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+header.navigation ul li.nav-link a {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+	font-family: Vollkorn, Arial, sans-serif;
+	font-weight: 400;
+}
+
+h1, h3 {
+	font-family: Vollkorn, Arial, sans-serif;
+	font-weight: 400;
+}
+
+.nav-link.active {
+	color: rgb(145, 240, 189);
+}
+
+section h1 {
+	color: #40404C;
+}
+
+header.navigation ul li.nav-link {
+	text-align: center;
+	
+}
+
+@media screen and (max-width: 500px) {
+header.navigation ul li.nav-link {
+	line-height: 50px;
+}
+}
+
+@media screen and (max-width: 700px) {
+	section h1 {
+	font-size: 2.8em;
+}
+}
+/* FOOTER */
+
+.footer li h3 {
+	font-weight: 400;
+	letter-spacing: .6px;
+}
+
+.footer li a {
+	font-family: Vollkorn, Arial, sans-serif;
+}
+
+.footer li {
+	text-align: center;
+	font-size: 1em;
+	color: rgba(255, 255, 255, 0.4);
+	 webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	font-family: Vollkorn, Arial, sans-serif
+}
+
+.footer ul {
+		margin-bottom: 20px;
+}
+@media screen and (min-width: 40em) {
+	.footer .footer-links {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer ul {
+		width: 33.2%;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.footer ul:nth-child(3n+1) {
+		clear: none;
+	}
+}
+
+@media screen and (min-width: 56.25em) {
+	.footer li {
+		font-size: 1.2em
+	}
+}	
+
+
+
+/* HERO */ 
+
+
+@media screen and (max-width: 599px) { 
+.hero {
+    height: 200px;
+}
+}
+
+
+@media screen and (max-width: 400px) {
+section h1 {
+	font-size: 1.6em;
+}
+}
+
+
+hr {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* PHONE NUMBER FOR NAV */
+
+p.nav-phone {
+float: left;
+line-height: 65px;
+text-align: center;
+position: fixed;
+left: 110px;
+color: white;
+font-family: Helvetica Neue;
+font-weight: 500;
+}
+
+@media (min-width: 774px) {
+	header.navigation ul li.nav-link {
+		padding-right: 5px;
+	}
+}
+@media screen and (min-width: 860px) {
+	p.nav-phone {
+		display: none;
+	}
+}
+
+/* phone-nav.css */
+
+@media screen and (max-width: 859px) {
+p.nav-phone-desktop {
+	display: none;
+}
+}
+
+
+@media screen and (min-width: 53.75em) {
+header.navigation .nav {
+	margin-top: 40px;
+}
+header.navigation .logo img {
+	width: 170px;
+	max-height: 300px;
+	padding-bottom: 0px;
+	padding-top: 15px;
+}
+header.navigation {
+	height: 100px;
+}
+header.navigation .logo {
+	padding-right: 0px;
+}
+header.navigation ul li.nav-link a {
+	font-size: 17px;
+}
+p.nav-phone-desktop {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+}
+
+@media (min-width: 1000px) {
+	header.navigation ul li.nav-link a {
+	font-size: 18px;
+}
+}
+
+@media screen and (min-width: 860px) {
+header.navigation .navigation-menu-button {
+display: none;
+}
+}
+
+@media screen and (min-width: 860px) {
+header.navigation .nav {
+	margin-top: 40px;
+}
+header.navigation {
+	height: 100px;
+}
+header.navigation .logo {
+	padding-right: 0px;
+}
+header.navigation ul li.nav-link a {
+	font-size: 16px;
+}
+p.nav-phone-desktop {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+}
+
+@media (min-width: 1000px) {
+	header.navigation ul li.nav-link a {
+	font-size: 18px;
+}
+}
+header.navigation .navigation-menu-button {
+color: rgba(255, 255, 255, 0.7);
+display: block;
+float: right;
+font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+font-weight: 700;
+line-height: 60px;
+margin: 0;
+padding-right: 1em;
+text-transform: uppercase;
+}
+
+@media screen and (min-width: 860px) {
+header.navigation .navigation-menu-button {
+display: none;
+}
+}

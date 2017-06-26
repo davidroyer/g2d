@@ -1,0 +1,76 @@
+/* ====================
+12. CONTACT SECTION
+==================== */
+.contact .form {
+  padding-bottom: 1em; }
+  .contact .form:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .contact .form .form-left,
+  .contact .form .form-right {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .contact .form .form-left:last-child,
+    .contact .form .form-right:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 37.5em) {
+      .contact .form .form-left,
+      .contact .form .form-right {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 0 5%; }
+        .contact .form .form-left:last-child,
+        .contact .form .form-right:last-child {
+          margin-right: 0; } }
+  .contact .form label {
+    display: none; }
+  .contact .form input {
+    height: 3em;
+    margin-bottom: 1em;
+    padding: 0 1em; }
+  .contact .form textarea {
+    padding: 1em;
+    height: 11em; }
+.contact p.submit {
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+  .contact p.submit input {
+    background: #2ecc71;
+    padding: 1.5em 6em;
+    text-transform: uppercase; }
+    .contact p.submit input:hover {
+      background: #40d47e; }
+.contact .form-feedback {
+  padding: 1em 2em;
+  color: white; }
+.contact .form-feedback.form-success {
+  background-color: #2ecc71; }
+.contact .form-feedback.form-error {
+  background-color: #e74c3c; }
+.contact #contact-error {
+  margin: 0 20% 2em; }
+  @media screen and (max-width: 37.5em) {
+    .contact #contact-error {
+      margin: 0 5% 2em; } }
+
+/* EXTRA */
+
+div.title p {
+  font-size: 1.4em;
+  text-align: center;
+  font-family: Vollkorn, Arial, sans-serif;
+}
+
+.contact p.submit input {
+background: #26B297;
+}
+
+.contact p.submit input:hover {
+background: #14D8C2;
+}

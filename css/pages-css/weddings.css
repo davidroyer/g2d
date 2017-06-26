@@ -1,0 +1,76 @@
+h2.wedding-levels {
+color: white;
+background: #40404C;
+margin-bottom: 0px;
+}
+
+#plans ul li.title {
+	padding: 10px 0px;
+}
+
+.planContainer .price p {
+	margin: 0px;
+}
+
+li.price p {
+margin-bottom: 0px;
+margin-top: 1em;
+}
+
+.planContainer .title h2.package {
+	margin: 0;
+	padding: 1em 0;
+}
+
+
+@media (max-width: 599px) {
+
+
+section#pricePlans.wedding-small-screen #plans .plan {
+	margin-bottom: 50px;
+	border: 1px solid gray;
+	display: inline-block;
+}
+ul#plans {
+	text-align: center;
+}
+#pricePlans #plans .plan {
+	float: none;
+	text-align: center;
+}
+}
+
+
+
+section#pricePlans.wedding-small-screen #plans .plan {
+	border: 1px solid gray;
+}
+
+
+
+
+p.subtitle {
+text-align: center;
+margin-top: 0px;
+padding-top: 0px;
+margin-bottom: 60px;
+font-size: 1.6em;
+font-family: Vollkorn;
+letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px) {
+	p.subtitle {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	p.subtitle {
+		font-size: 1.2em;
+	}
+}
+
+h1.heading-title {
+	margin-bottom: 0px;
+}

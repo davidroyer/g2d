@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 500px) {
+#lessons-classes img {
+	float: left;
+	width: 60px;
+}
+.flex-box .flex-title {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	font-size: 1em;
+	font-family: Vollkorn, Arial, sans-serif;
+}
+	
+.flex-box p {
+	clear: both;
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 1.1em;
+}
+.flex-box {
+	padding: 5px;
+}
+div.left-side {
+width: 80%;
+float: left;
+}
+div.right-side {
+	width: 19%;
+	float: left;
+}
+.right-side img {
+	margin-top: 17px;
+}
+}
+
+#lessons-classes img.arrow {
+	width: 30px;
+}
+
+
+/* MOBILE HOME LESSON LINK */
+
+@media screen and (max-width: 500px) {
+	.flex-box .flex-title {
+padding-left: 10px;
+padding-top: 5px;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+	p.flex-info {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 500px) {
+#lessons-classes img.arrow {
+		display: none;
+	}
+}

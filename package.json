@@ -1,0 +1,13 @@
+{
+  "name": "got2dance",
+  "version": "1.0.0",
+  "description": "Got 2 Dance Website",
+  "author": "David Royer <droyer01@gmail.com>",
+  "private": false,
+  "dependencies": {
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
