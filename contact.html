@@ -72,6 +72,23 @@
             <section class="section--no-hero clearfix">
                 <div class="row">
                     <h2 class="section__heading">Contact Us</h2>
+                    <form name="contact" action="thank-you" netlify>
+                      <p>
+                        <label>Your Name:</label>
+                        <input type="text" name="name">
+                      </p>
+                      <p>
+                        <label>Your Email</label>
+                        <input type="email" name="email">
+                      </p>
+                      <p>
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                      </p>
+                      <p>
+                        <button class="button--ghost">Send</button>
+                      </p>
+                    </form>
 
                       <form name="contact" action="thank-you" netlify>
 
@@ -97,9 +114,9 @@
                             </div>
                         </div>
 
-                        <div id="contact-error"></div>
-
-                        <p class="form__submit"><input class="button--ghost" type="submit" value="Submit Form"></p>
+                        <!-- <div id="contact-error"></div> -->
+                        <button class="button--ghost">Send</button>
+                        <!-- <p class="form__submit"><input class="button--ghost" type="submit" value="Submit Form"></p> -->
 
                         </form>
 
