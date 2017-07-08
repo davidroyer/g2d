@@ -72,25 +72,35 @@
             <section class="section--no-hero clearfix">
                 <div class="row">
                     <h2 class="section__heading">Contact Us</h2>
-                    <form name="contact" action="thank-you" netlify>
-                      <p>
-                        <label>Your Name:</label>
-                        <input type="text" name="name">
-                      </p>
-                      <p>
-                        <label>Your Email</label>
-                        <input type="email" name="email">
-                      </p>
-                      <p>
-                        <label>Message</label>
-                        <textarea name="message"></textarea>
-                      </p>
-                      <p>
-                        <button class="button--ghost">Send</button>
-                      </p>
-                    </form>
+                      <form id="contact-form" name="contact" action="thank-you" netlify>
 
-        
+                        <div class="form">
+                          <div class="form__left">
+
+                              <p><label class="form__label" for="name">Name</label>
+                              <input type="text" name="name" id="name" placeholder="Name..." class="form__input"></p>
+
+                              <p><label class="form__label" for="email">Email</label>
+                              <input type="email" name="email" id="email" placeholder="E-mail..." class="form__input"></p>
+
+                                <p><label class="form__label" for="phone">Phone</label>
+                                <input type="text" name="phone" id="phone" placeholder="Phone number..." class="form__input"></p>
+
+                            </div>
+
+                          <div class="form__right">
+
+                              <p><label class="form__label" for="message">Message</label>
+                              <textarea name="message" id="message" rows="10" placeholder="Your message..." class="form__textarea"></textarea></p>
+
+                            </div>
+                        </div>
+
+                        <!-- <div id="contact-error"></div> -->
+                        <button class="button--ghost">Send</button>
+                        <!-- <p class="form__submit"><input class="button--ghost" type="submit" value="Submit Form"></p> -->
+
+                        </form>
 
                 </div>
             </section>
